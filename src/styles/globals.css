@@ -10,11 +10,6 @@ body {
   background-color: #17191a;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
 }

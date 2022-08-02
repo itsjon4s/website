@@ -1,27 +1,33 @@
 import Head from "next/head";
+import Image from "next/image";
 import NavBar from "../components/Navbar";
-import { Github, Discord, Spotify } from "../components/Socials";
+import { Github, Discord, Spotify, Mail, Instagram } from "../components/Socials";
 
 export default function Home() {
   return (
-    <div>
+    <div className="h-screen">
       <Head>
         <title>Jon4s</title>
-        <meta name="theme-color" content="#17191a" />
+        <meta name="theme-color" content="#ddd" />
         <meta name="description" content="My space on the web." />
-        <meta name="keywords" content="jon4s, jonas, jonas website, Jon4s" />
-        <link rel="icon" href="/icon.png" />
-        <meta property="og:image" content="/icon.png" />
       </Head>
       <NavBar />
-      <div className="h-screen flex flex-col text-center pt-[100px]">
-        <h1 className="font-bold text-8xl">Jon4s</h1>
-        <h2 className="font-light pt-[10px] text-xl">Portugal, Aveiro, SMF</h2>
-        <p className="text-xl font-light">Web Developer • Student</p>
-        <div className="w-full justify-center text-6xl flex">
-          <Github />
-          <Discord />
-          <Spotify />
+      <div className="flex h-screen justify-center  pt-[100px]">
+        <div className="flex flex-col text-center">
+          <h1 className="font-bold text-7xl">Jon4s</h1>
+          <h2 className="font-extralight pt-[5px] text-lg">
+            Portugal, Aveiro, SMF
+          </h2>
+          <p className="text-xl font-normal pt-[15px]">
+            Web Developer • Student
+          </p>
+          <div className="w-full justify-center text-7xl flex pt-[25px]">
+            <Github />
+            <Discord />
+            <Spotify />
+            <Mail />
+            <Instagram />
+          </div>
         </div>
       </div>
     </div>
