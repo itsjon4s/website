@@ -5,14 +5,14 @@ import { Github, Discord, Spotify, Mail, Instagram } from "../components/Socials
 
 export default function Home() {
   return (
-    <div className="h-screen">
+    <div>
       <Head>
         <title>Jon4s</title>
         <meta name="theme-color" content="#ffffff" />
         <meta name="description" content="My space on the web." />
       </Head>
       <NavBar />
-      <div className="flex h-screen justify-center  pt-[100px]">
+      <div className="flex justify-center pt-[100px]">
         <div className="flex flex-col text-center">
           <h1 className="font-bold text-7xl">Jon4s</h1>
           <h2 className="font-extralight pt-[5px] text-lg">
