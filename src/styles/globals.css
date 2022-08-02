@@ -5,8 +5,9 @@
 
 html,
 body {
-  font-family: 'Poppins' sans-serif, ;
-    color: white;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #17191a;
 }
 
 a {
