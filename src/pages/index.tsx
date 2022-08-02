@@ -8,7 +8,7 @@ export default function Home() {
     <div className="h-screen">
       <Head>
         <title>Jon4s</title>
-        <meta name="theme-color" content="#ddd" />
+        <meta name="theme-color" content="#ffffff" />
         <meta name="description" content="My space on the web." />
       </Head>
       <NavBar />
