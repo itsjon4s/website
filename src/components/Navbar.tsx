@@ -5,7 +5,11 @@ export default function NavBar() {
   return (
     <nav className="flex items-center flex-wrap">
       <div className="flex items-center p-3 ">
-        <Bird className="text-5xl" />
+        <Link href="/">
+          <a>
+            <Bird className="text-5xl" />
+          </a>
+        </Link>
       </div>
       <div>
         <div className="w-full items-start flex">
