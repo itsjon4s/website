@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Bird } from "phosphor-react";
 export default function NavBar() {
   return (
@@ -23,9 +22,9 @@ export default function NavBar() {
               Projects
             </a>
           </Link>
-          <Link href="/experience">
+          <Link href="/about">
             <a className="w-full px-3 py-2 rounded font-bold items-center justify-center hover:bg-[#333]">
-              Experience
+              About
             </a>
           </Link>
         </div>

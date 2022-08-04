@@ -4,7 +4,7 @@ import {
   DiscordLogo,
   SpotifyLogo,
   EnvelopeSimple,
-  InstagramLogo
+  InstagramLogo,
 } from "phosphor-react";
 
 const Github = () => {

@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="description" content="My space on the web." />
       </Head>
       <NavBar />
-      <div className="flex justify-center pt-[100px]">
+      <div className="flex justify-center pt-[50px]">
         <div className="flex flex-col text-center">
           <h1 className="font-bold text-7xl">Jon4s</h1>
           <h2 className="font-extralight pt-[5px] text-lg">
@@ -21,7 +21,7 @@ export default function Home() {
           <p className="text-xl font-normal pt-[15px]">
             Web Developer • Student
           </p>
-          <div className="w-full justify-center text-7xl flex pt-[25px]">
+          <div className="w-full justify-center text-6xl flex pt-[10px]">
             <Github />
             <Discord />
             <Spotify />
