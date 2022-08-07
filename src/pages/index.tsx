@@ -1,7 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
 import NavBar from "../components/Navbar";
-import { Github, Discord, Spotify, Mail, Instagram } from "../components/Socials";
+import Discord from "../components/socials/Discord";
+import Email from "../components/socials/Email";
+import Github from "../components/socials/Github";
+import Instagram from "../components/socials/Instagram";
+import Spotify from "../components/socials/Spotify";
 
 export default function Home() {
   return (
@@ -15,17 +18,15 @@ export default function Home() {
       <div className="flex justify-center pt-[50px]">
         <div className="flex flex-col text-center">
           <h1 className="font-bold text-7xl">Jon4s</h1>
-          <h2 className="font-extralight pt-[5px] text-lg">
-            Portugal, Aveiro, SMF
-          </h2>
+          <h2 className="font-extralight pt-[5px] text-lg">Portugal, Aveiro</h2>
           <p className="text-xl font-normal pt-[15px]">
             Web Developer • Student
           </p>
-          <div className="w-full justify-center text-6xl flex pt-[10px]">
+          <div className="w-full justify-center text-6xl flex pt-[10px] space-x-3">
             <Github />
             <Discord />
             <Spotify />
-            <Mail />
+            <Email />
             <Instagram />
           </div>
         </div>
