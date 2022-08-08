@@ -1,6 +1,7 @@
 {
   "name": "jon4s.vercel.app",
   "version": "1.0.0",
+  "author": "itsjon4s",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
