@@ -1,5 +1,6 @@
-import Error from '../components/Error';
 import Head from 'next/head';
+import Error from '../components/Error';
+
 export default function Custom500() {
   return (
     <div className="h-screen flex items-center justify-center">
