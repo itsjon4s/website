@@ -1,10 +1,6 @@
-import Head from "next/head";
-import NavBar from "../components/Navbar";
-import Discord from "../components/socials/Discord";
-import Email from "../components/socials/Email";
-import Github from "../components/socials/Github";
-import Instagram from "../components/socials/Instagram";
-import Spotify from "../components/socials/Spotify";
+import Head from 'next/head';
+import NavBar from '../components/Navbar';
+import { Discord, Email, Github, Instagram, Spotify } from '../components/socials/index';
 
 export default function Home() {
   return (
@@ -19,9 +15,7 @@ export default function Home() {
         <div className="flex flex-col text-center">
           <h1 className="font-bold text-7xl">Jon4s</h1>
           <h2 className="font-extralight pt-[5px] text-lg">Portugal, Aveiro</h2>
-          <p className="text-xl font-normal pt-[15px]">
-            Web Developer • Student
-          </p>
+          <p className="text-xl font-normal pt-[15px]">Web Developer • Student</p>
           <div className="w-full justify-center text-6xl flex pt-[10px] space-x-3">
             <Github />
             <Discord />

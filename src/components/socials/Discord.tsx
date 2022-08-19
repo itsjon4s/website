@@ -5,7 +5,7 @@ export default function Discord() {
   return (
     <Link href="/discord">
       <a>
-        <DiscordLogo className="scale-100 hover:scale-150 duration-300 cursor-pointer"/>
+        <DiscordLogo className="scale-100 hover:scale-150 duration-300 cursor-pointer" />
       </a>
     </Link>
   );

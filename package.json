@@ -1,12 +1,13 @@
 {
-  "name": "jon4s.vercel.app",
+  "name": "personalwebsite",
   "version": "1.0.0",
   "author": "itsjon4s",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "npx eslint",
+    "lint:fix": "npx eslint src --fix"
   },
   "dependencies": {
     "next": "12.2.3",
@@ -15,11 +16,18 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "prettier": "^2.7.1",
     "@types/node": "^18.6.3",
     "@types/react": "^18.0.15",
+    "@typescript-eslint/eslint-plugin": "5.32.0",
+    "@typescript-eslint/parser": "5.32.0",
     "autoprefixer": "^10.4.8",
     "eslint": "8.20.0",
+    "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-next": "12.2.3",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.2.1",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.7",
     "typescript": "^4.7.4"
