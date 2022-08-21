@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Error from '../components/Error';
 
 export default function Custom500() {
