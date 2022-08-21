@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import NavBar from '../components/Navbar';
-import { Discord, Email, Github, Instagram, Spotify } from '../components/socials/index'; 
+import { Discord, Email, Github, Instagram, Spotify } from '../components/socials/index';
 
 export default function Home() {
   return (
