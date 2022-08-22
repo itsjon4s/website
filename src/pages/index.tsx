@@ -1,8 +1,9 @@
+import type { NextPage } from 'next';
 import Head from 'next/head';
 import NavBar from '../components/Navbar';
 import { Discord, Email, Github, Instagram, Spotify } from '../components/socials/index';
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <div>
       <Head>
@@ -27,4 +28,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default Home;

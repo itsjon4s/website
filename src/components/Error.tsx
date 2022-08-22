@@ -5,7 +5,7 @@ interface ErrorProps {
   message: string;
 }
 
-export default function Error(props: ErrorProps) {
+const Error = (props: ErrorProps) => {
   return (
     <div>
       <div className="flex-col text-center">
@@ -17,4 +17,6 @@ export default function Error(props: ErrorProps) {
       </div>
     </div>
   );
-}
+};
+
+export default Error;

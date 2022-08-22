@@ -1,8 +1,9 @@
+import type { NextPage } from 'next';
 import Head from 'next/head';
 import NavBar from '../components/Navbar';
 import Tech from '../components/Tech';
 
-export default function Experience() {
+const Experience: NextPage = () => {
   return (
     <div>
       <Head>
@@ -47,4 +48,6 @@ export default function Experience() {
       </div>
     </div>
   );
-}
+};
+
+export default Experience;

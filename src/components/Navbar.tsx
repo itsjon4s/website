@@ -3,7 +3,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import Image from 'next/image';
 import { Fragment } from 'react';
 
-export default function Navbar() {
+const Navbar = () => {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Projects', href: 'https://github.com/itsjon4s?tab=repositories' },
@@ -68,4 +68,6 @@ export default function Navbar() {
       <div className="bg-[#cce9ea] h-[1px]"></div>
     </>
   );
-}
+};
+
+export default Navbar;
