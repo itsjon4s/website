@@ -8,11 +8,11 @@ interface ErrorProps {
 const Error = (props: ErrorProps) => {
   return (
     <div>
-      <div className="flex-col text-center">
-        <h1 className="font-bold text-9xl text-[#8fcfd1]">{props.code}</h1>
-        <p className="font-light text-4xl">{props.message}</p>
+      <div className="flex flex-col space-y-4 text-center">
+        <h1 className="font-bold text-7xl text-[#8fcfd1]">{props.code}</h1>
+        <p className="font-semibold text-4xl">{props.message}</p>
         <Link href="/">
-          <a className="font-extralight text-3xl border-b-2 border-white">Back to Home</a>
+          <a className="font-normal text-3xl text-[#8fcfd1]">Back to Home</a>
         </Link>
       </div>
     </div>
