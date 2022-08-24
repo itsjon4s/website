@@ -3,7 +3,7 @@ import Head from 'next/head';
 import NavBar from '../components/Navbar';
 import Tech from '../components/Tech';
 
-const Experience: NextPage = _ => {
+const Experience: NextPage = () => {
   return (
     <div>
       <Head>

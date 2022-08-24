@@ -3,7 +3,7 @@ import Head from 'next/head';
 import NavBar from '../components/Navbar';
 import { Discord, Email, Github, Instagram, Spotify } from '../components/socials/index';
 
-const Home: NextPage = _ => {
+const Home: NextPage = () => {
   return (
     <div className="mx-10 my-5">
       <Head>
