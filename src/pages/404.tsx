@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Error from '../components/Error';
 
-const Custom404: NextPage = () => {
+const Custom404: NextPage = _ => {
   return (
     <div className="h-screen flex items-center justify-center">
       <Error code={404} message="Page not found." />

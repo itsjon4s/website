@@ -3,9 +3,9 @@ import Head from 'next/head';
 import NavBar from '../components/Navbar';
 import { Discord, Email, Github, Instagram, Spotify } from '../components/socials/index';
 
-const Home: NextPage = () => {
+const Home: NextPage = _ => {
   return (
-    <div>
+    <div className='mx-10 my-5'>
       <Head>
         <title>Jon4s</title>
         <meta name="theme-color" content="#8fcfd1" />
