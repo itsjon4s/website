@@ -1,9 +1,10 @@
 import { Disclosure, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import { NextPage } from 'next';
 import Image from 'next/image';
 import { Fragment } from 'react';
 
-const Navbar = () => {
+const Navbar: NextPage = () => {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Projects', href: 'https://github.com/itsjon4s?tab=repositories' },
