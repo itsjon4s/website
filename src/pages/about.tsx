@@ -14,7 +14,7 @@ const Experience: NextPage = () => {
       <div className="flex justify-center pt-[50px]">
         <div className="flex flex-col text-center">
           <h1 className="font-bold text-7xl">About</h1>
-          <div className="font-extralight pt-[5px] text-lg mr-[10px] mf-[10px]">
+          <div className="font-medium pt-[5px] text-lg mr-[10px] mf-[10px] text-[#bac2de]">
             <h4>
               {'Hello, Im a Portuguese high school student and a web developer.'}
               <div>

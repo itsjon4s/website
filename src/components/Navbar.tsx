@@ -1,7 +1,8 @@
 import { Disclosure, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import { NextPage } from 'next';
-import Image from 'next/image';
+import type { NextPage } from 'next';
+import Link from 'next/link';
+import { TwitterLogo } from 'phosphor-react';
 import { Fragment } from 'react';
 
 const Navbar: NextPage = () => {
@@ -20,13 +21,13 @@ const Navbar: NextPage = () => {
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                   <div className="flex items-center">
-                    <div className="flex-shrink-0">
-                      <Image height="50" width="50" src="/favicon.ico" />
-                    </div>
+                    <Link href="/">
+                      <TwitterLogo className="text-6xl" />
+                    </Link>
                     <div className="hidden md:block">
-                      <div className="ml-10 flex items-baseline space-x-4">
+                      <div className="ml-5 flex items-baseline space-x-4">
                         {navigation.map(item => (
-                          <a key={item.name} href={item.href} className="hover:bg-gray-700 px-2 py-3 rounded-md text-xl font-semibold" aria-current={'page'}>
+                          <a key={item.name} href={item.href} className="hover:bg-[#313244] px-2 py-2 rounded-md text-xl font-semibold" aria-current={'page'}>
                             {item.name}
                           </a>
                         ))}
@@ -66,7 +67,6 @@ const Navbar: NextPage = () => {
           )}
         </Disclosure>
       </div>
-      <div className="bg-[#cce9ea] h-[1px]"></div>
     </>
   );
 };
