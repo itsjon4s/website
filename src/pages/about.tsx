@@ -7,7 +7,7 @@ const Experience: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Jon4s - About</title>
+        <title>About</title>
         <meta name="theme-color" content="#ffffff" />
       </Head>
       <NavBar />

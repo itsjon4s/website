@@ -8,7 +8,7 @@ import { Fragment } from 'react';
 const Navbar: NextPage = () => {
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Projects', href: 'https://github.com/itsjon4s?tab=repositories' },
+    { name: 'Projects', href: '/projects' },
     { name: 'About', href: '/about' }
   ];
 
