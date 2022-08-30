@@ -8,13 +8,12 @@ const Experience: NextPage = () => {
     <div>
       <Head>
         <title>About</title>
-        <meta name="theme-color" content="#ffffff" />
       </Head>
       <NavBar />
       <div className="flex justify-center pt-[50px]">
         <div className="flex flex-col text-center">
-          <h1 className="font-bold text-7xl">About</h1>
-          <div className="font-medium pt-[5px] text-lg mr-[10px] mf-[10px] text-[#bac2de]">
+          <h1 className="font-black text-7xl">About</h1>
+          <div className="font-medium pt-[5px] text-lg mr-[10px] mf-[10px] text-subtext">
             <h4>
               {'Hello, Im a Portuguese high school student and a web developer.'}
               <div>

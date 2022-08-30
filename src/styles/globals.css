@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html,
 body {
-  font-family: 'Poppins', sans-serif, 'Noto Emoji';
-  color: #cdd6f4;
-  background-color: #1e1e2e;
+  font-family: 'Poppins';
+  @apply h-full;
+  @apply text-foreground;
+  @apply bg-base;
 }
 
 * {

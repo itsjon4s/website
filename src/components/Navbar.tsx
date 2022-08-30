@@ -27,7 +27,7 @@ const Navbar: NextPage = () => {
                     <div className="hidden md:block">
                       <div className="ml-5 flex items-baseline space-x-4">
                         {navigation.map(item => (
-                          <a key={item.name} href={item.href} className="hover:bg-[#313244] px-2 py-2 rounded-md text-xl font-semibold" aria-current={'page'}>
+                          <a key={item.name} href={item.href} className="hover:bg-mantle px-2 py-2 rounded-md text-xl font-semibold" aria-current={'page'}>
                             {item.name}
                           </a>
                         ))}
@@ -38,7 +38,7 @@ const Navbar: NextPage = () => {
                     <div className="ml-4 flex items-center md:ml-6"></div>
                   </div>
                   <div className="-mr-2 flex md:hidden">
-                    <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white ">
+                    <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md  focus:outline-none focus:ring-2 focus:ring-offset-2 ">
                       {open ? <XIcon className="block h-6 w-6" aria-hidden="true" /> : <MenuIcon className="block h-6 w-6" aria-hidden="true" />}
                     </Disclosure.Button>
                   </div>
