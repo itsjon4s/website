@@ -10,7 +10,7 @@ const Error: NextPage<ErrorProps> = (props: ErrorProps) => {
   return (
     <div>
       <div className="flex flex-col space-y-4 text-center">
-        <h1 className="font-bold text-7xl md:text-8xl ">{props.code}</h1>
+        <h1 className="font-bold text-7xl md:text-8xl text-blue">{props.code}</h1>
         <p className="font-base text-4xl md:text-6xl">{props.message}</p>
         <Link href="/">
           <a className="flex justify-center">
