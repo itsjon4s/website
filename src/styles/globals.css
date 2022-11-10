@@ -8,7 +8,7 @@ body {
   font-family: 'Poppins';
   @apply h-full;
   @apply text-foreground;
-  @apply bg-base;
+  background-color: rgba(24,24,24, 1);
 }
 
 * {
