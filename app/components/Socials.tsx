@@ -1,12 +1,11 @@
 'use client';
 
-import type { NextPage } from 'next';
 import Link from 'next/link';
 import { EnvelopeSimple, GithubLogo, InstagramLogo, SpotifyLogo } from 'phosphor-react';
 
-const Socials: NextPage = () => {
+const Socials = () => {
   return (
-    <div className="w-full  text-6xl md:text-7xl flex pt-[10px] space-x-3">
+    <div className="text-6xl text-center justify-center flex space-x-3">
       <Link href="https://www.instagram.com/_joao.mota_/">
         <InstagramLogo className="scale-100 hover:scale-150 duration-300 cursor-pointer" />
       </Link>

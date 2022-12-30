@@ -6,9 +6,9 @@
 html,
 body {
   font-family: 'Poppins';
-  @apply h-full;
-  @apply text-foreground;
+  @apply text-zinc-300;
   background-color: rgba(24,24,24, 1);
+  margin: 1.5rem;
 }
 
 * {

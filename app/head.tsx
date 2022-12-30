@@ -1,6 +1,4 @@
-import { NextPage } from "next";
-
-const Head: NextPage = () => {
+const Head = () => {
   return (
     <>
       <title>João Mota</title>

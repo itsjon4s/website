@@ -1,20 +1,19 @@
 'use client';
 
-import type { NextPage } from 'next';
 import Socials from './Socials';
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
-    <div className="flex justify-center items-center h-screen pb-20">
-      <div className="flex flex-col text-center">
-        <h1 className="font-black text-6xl ">
-          Hello, I am
-          <span className="text-blue"> Jon4s</span>!
-        </h1>
-        <p className="text-3xl font-normal pt-[15px] text-subtext">Web Developer • High School Student</p>
-        <Socials />
-      </div>
+  <div className="flex items-center px-7 py-7 md:py-24 md:px-24">
+    <div className="flex flex-col space-y-4">
+      <h1 className="font-bold text-6xl text-center justify-center">
+        Hello, I am
+        <span className="text-blue"> Jon4s</span>!
+      </h1>
+      <p className="text-2xl text-center justify-center font-normal">Web Developer • High School Student</p>
+      <Socials />
     </div>
+  </div>
   );
 };
 
