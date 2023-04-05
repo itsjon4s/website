@@ -8,7 +8,9 @@ body {
   font-family: 'Poppins';
   @apply text-zinc-300;
   background-color: rgba(24,24,24, 1);
-  margin: 1.5rem;
+  margin-bottom: 2rem;
+  height: 100vh;
+  
 }
 
 * {
