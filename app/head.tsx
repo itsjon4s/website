@@ -1,11 +1,9 @@
-const Head = () => {
-  return (
+const Head = () => (
     <>
-      <title>João Mota</title>
-      <meta name="theme-color" content="#8fcfd1" />
-      <meta name="description" content="hi" />
+      <title>hello</title>
+      <meta name="theme-color" content="#181818" />
+      <meta name="description" content="nothing to see here" />
     </>
-  );
-};
+);
 
 export default Head;
