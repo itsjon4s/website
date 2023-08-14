@@ -1,5 +1,6 @@
 import './styles.css';
 import Head from './head';
+
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
     <html>
       <Head />
